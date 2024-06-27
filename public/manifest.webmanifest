@@ -1,0 +1,60 @@
+{
+    "name": "AfterSchoolLessonsPWA",
+    "short_name": "lessons",
+    "description": "After School Classes",
+    "icons": [
+    {
+      "src": "images/football.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/basketball.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "images/volleyball.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "images/squash.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "images/swimming.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "images/piano.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "images/tabletennis.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "images/tennis.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "images/golf.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "images/hockey.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+    "start_url": "index.html",
+    "display": "fullscreen",
+    "background_color": "#B12A34"
+}
