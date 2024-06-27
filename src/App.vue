@@ -11,7 +11,7 @@
     </header>
     <component 
       :is="currentComponent" 
-      :lessons="sortedLessons" 
+      :lessons="lessons" 
       :cart="cart" 
       @add-item-to-cart="addToCart" 
       @remove-item-from-cart="removeFromCart" 
