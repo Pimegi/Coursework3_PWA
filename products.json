@@ -7,7 +7,7 @@
   "location": "Missouri",
   "price": 47,
   "spaces": 22,
-  "icon": "/petstore/public/images/hockey.png",
+  "icon": "images/hockey.png",
   "quantity": 0
 },
 {
@@ -19,7 +19,7 @@
   "location": "Texas",
   "price": 20,
   "spaces": 13,
-  "icon": "/petstore/public/images/tennis.png",
+  "icon": "images/tennis.png",
   "quantity": 0
 },
 {
@@ -31,7 +31,7 @@
   "location": "Florida",
   "price": 25,
   "spaces": 11,
-  "icon": "/petstore/public/images/basketball.png",
+  "icon": "images/basketball.png",
   "quantity": 0
 },
 {
@@ -43,7 +43,7 @@
   "location": "Ohio",
   "price": 30,
   "spaces": 7,
-  "icon": "/petstore/public/images/volleyball.png",
+  "icon": "images/volleyball.png",
   "quantity": 0
 },
 {
@@ -55,7 +55,7 @@
   "location": "Alaska",
   "price": 150,
   "spaces": 8,
-  "icon": "/petstore/public/images/football.png",
+  "icon": "images/football.png",
   "quantity": 0
 },
 {
@@ -67,7 +67,7 @@
   "location": "New Jersey",
   "price": 45,
   "spaces": 11,
-  "icon": "/petstore/public/images/squash.png",
+  "icon": "images/squash.png",
   "quantity": 0
 },
 {
@@ -79,7 +79,7 @@
   "location": "New York",
   "price": 25,
   "spaces": 15,
-  "icon": "/petstore/public/images/swimming.png",
+  "icon": "images/swimming.png",
   "quantity": 0
 },
 {
@@ -91,7 +91,7 @@
   "location": "Arizona",
   "price": 45,
   "spaces": 6,
-  "icon": "/petstore/public/images/piano.png",
+  "icon": "images/piano.png",
   "quantity": 0
 },
 {
@@ -103,7 +103,7 @@
   "location": "Alabama",
   "price": 75,
   "spaces": 13,
-  "icon": "/petstore/public/images/golf.png",
+  "icon": "images/golf.png",
   "quantity": 0
 },
 {
@@ -115,6 +115,6 @@
   "location": "Connecticut",
   "price": 21,
   "spaces": 19,
-  "icon": "/petstore/public/images/tabletennis.png",
+  "icon": "images/tabletennis.png",
   "quantity": 0
 }]
