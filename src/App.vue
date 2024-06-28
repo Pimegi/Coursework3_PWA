@@ -90,7 +90,7 @@ export default {
         this.lessons = data;
       } catch (error) {
         console.error('Error fetching lessons from server, using local data:', error);
-        const localResponse = await fetch('/petstore/public/products.json');
+        const localResponse = await fetch('/products.json');
         const localData = await localResponse.json();
         this.lessons = localData;
       }

@@ -1,7 +1,7 @@
 {
-  "name": "MyPetStorePWA",
-  "short_name": "petstore",
-  "description": "my online pet store",
+  "name": "AfterSchoolClasses",
+  "short_name": "online classes",
+  "description": "AfterSchool Classes",
   "icons": [
       {
           "src": "img/icons/android-chrome-192x192.png",
