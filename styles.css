@@ -1,33 +1,31 @@
 /* Header styles */
 header {
-  background-color: #333; /* Background color */
-  color: #fff; /* Text color */
-  padding: 10px; /* Padding around the content */
+  background-color: #333; 
+  color: #fff; 
+  padding: 10px; 
   display: flex;
-  justify-content: space-between; /* Align items to the left and right within the header */
+  justify-content: space-between; 
+  flex-wrap: wrap; 
 }
 
 /* Logo or Title in the header */
 header h1 {
-  margin: 0; /* Remove default margin for h1 */
-  font-size: 24px; /* Adjust font size */
+  margin: 0; 
+  font-size: 24px; 
 }
 
 /* Checkout button styles */
 .checkout-button {
   display: flex;
-  align-items: center; /* Center items vertically */
+  align-items: center; 
 }
 
 /* Cart icon */
 .checkout-button i {
-  margin-right: 5px; /* Add some space between the icon and text */
+  margin-right: 5px; 
 }
 
-
-
- /* List of Items  */
-
+/* List of Items */
 .lessons-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(50%, 10fr));
@@ -43,26 +41,24 @@ header h1 {
 }
 
 .lesson-content {
-  display: flex; /* Use flexbox to arrange text and image side by side */
-  align-items: center; /* Vertically center content */
-  justify-content: space-between; /* Create space between text and image */
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
 }
 
 .text {
-  flex: 1; /* Allow text to take available space */
-  padding: 0 10px; /* Add padding to text for spacing */
+  flex: 1; 
+  padding: 0 10px; 
 }
 
 .image {
-  width: 30%; /* Set a fixed width for the image (adjust as needed) */
-  margin-right: 50px; /* Add margin between text and image */
+  width: 30%; 
+  margin-right: 50px; 
   object-fit: cover;
   font-size: 5rem;
 }
 
-
-/* Body/background  */
-
+/* Body/background */
 body {
   background-color: #333;
   margin: 0;
@@ -73,7 +69,7 @@ body {
   height: 100vh;
 }
 
-.error-message:empty{
+.error-message:empty {
   display: none;
 }
 
@@ -84,13 +80,14 @@ body {
 }
 
 .confirmation-message:empty {
-   display: none;
+  display: none;
 }
+
 .confirmation-message:not(:empty) {
   font-size: 18px;
   margin-top: 10px;
   color: green;
-} 
+}
 
 .search-grid {
   display: grid;
@@ -100,9 +97,44 @@ body {
 }
 
 .search-card {
-  display: none ;
+  display: none;
   width: 50%;
   padding: 10px;
   border: 1px solid #ddd;
   border-radius: 5px;
+}
+
+/* Media Queries for Mobile Responsiveness */
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+     margin-left: 10px;
+  }
+
+  .checkout-button {
+    margin-top: 10px;
+    justify-content: center;
+  }
+
+  .lessons-grid, .search-grid {
+    grid-template-columns: 1fr; /* One column layout for mobile */
+    margin-left: 10px;
+
+  }
+
+  .lessons-card, .search-card {
+    width: 80%;
+  }
+
+  .lesson-content {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .image {
+    width: 50%;
+    margin-right: 10px;
+    margin-bottom: 0;
+  }
 }
