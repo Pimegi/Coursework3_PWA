@@ -1,24 +1,3 @@
-# petstore
+Github Repositoruy - https://github.com/Pimegi/Coursework3_PWA
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Github Pages link -  https://pimegi.github.io/Coursework3_PWA/
